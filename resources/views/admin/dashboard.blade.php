@@ -8,8 +8,8 @@
 @endif
 <div class="container-fluid py-4">
   <div class="row">
-  <h2>Current Locale: {{ app()->getLocale() }}</h2>
-  <h1>{{ __('messages.welcome') }}</h1>
+  <!-- <h2>Current Locale: {{ app()->getLocale() }}</h2> -->
+  <!-- <h1>{{ __('messages.welcome') }}</h1> -->
     <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
       <div class="card">
         <div class="card-body p-3">
@@ -391,24 +391,13 @@
               document.write(new Date().getFullYear())
             </script>,
             made with <i class="fa fa-heart"></i> by
-            <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">Creative Tim</a>
+            <a href="https://www.webperfection.co.com" class="font-weight-bold" target="_blank">Webperfection</a>
             for a better web.
           </div>
         </div>
         <div class="col-lg-6">
           <ul class="nav nav-footer justify-content-center justify-content-lg-end">
-            <li class="nav-item">
-              <a href="https://www.creative-tim.com" class="nav-link text-muted" target="_blank">Creative Tim</a>
-            </li>
-            <li class="nav-item">
-              <a href="https://www.creative-tim.com/presentation" class="nav-link text-muted" target="_blank">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a href="https://www.creative-tim.com/blog" class="nav-link text-muted" target="_blank">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a href="https://www.creative-tim.com/license" class="nav-link pe-0 text-muted" target="_blank">License</a>
-            </li>
+          
           </ul>
         </div>
       </div>

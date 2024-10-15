@@ -9,7 +9,7 @@
     @include('layouts/navbar')
     @yield('content')
   </main>
-  @include('layouts/appearence')
+ 
   @include('layouts/mainScripts')  
 </body>
 </html>
